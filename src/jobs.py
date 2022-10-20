@@ -18,7 +18,7 @@ def read(path):
     """
     with open(path, encoding="utf-8") as csvfile:
         reader = csv.DictReader(csvfile, delimiter=",", quotechar='"')
-        result_list = []
-        for row in reader:
-            result_list.append(row)
+        result_list = list(reader)
+        # for row in reader:
+        #     result_list.append(row)
     return result_list
