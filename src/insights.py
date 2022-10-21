@@ -193,6 +193,10 @@ def filter_by_salary_range(jobs, salary):
     """
     filtred_jobs = []
     for job in jobs:
-        if matches_salary_range(job, salary):
-            filtred_jobs.append(job)
+        if type(job["min_salary"]) is int and \
+           type(job["max_salary"]) is int and \
+           type(salary) is int and \
+           job["max_salary"] > job["min_salary"]:
+            if matches_salary_range(job, salary):
+                filtred_jobs.append(job)
     return filtred_jobs
