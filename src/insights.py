@@ -108,7 +108,9 @@ def get_max_salary(path):
     job_list = read(path)
     max_salary = 0
     for job in job_list:
-        if job["max_salary"] and int(job["max_salary"]) > max_salary:
+        if bool(job["max_salary"]) and \
+           job["max_salary"].isdigit() and \
+           int(job["max_salary"]) > max_salary:
             max_salary = int(job["max_salary"])
     return max_salary
 
@@ -131,7 +133,9 @@ def get_min_salary(path):
     job_list = read(path)
     min_salary = 999999999999999999999
     for job in job_list:
-        if job["min_salary"] and int(job["min_salary"]) < min_salary:
+        if bool(job["min_salary"]) and \
+           job["min_salary"].isdigit() and \
+           int(job["min_salary"]) < min_salary:
             min_salary = int(job["min_salary"])
     return min_salary
 
