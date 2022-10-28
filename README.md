@@ -4,7 +4,7 @@
 
 Este projeto foi feito enquanto estudava na @betrybe.
 
-    <img src="/.images/job.png" alt="Logo Aplicação" width="300"/>
+<img src="/.images/job.png" alt="Logo Aplicação" width="300"/>
   
   Neste projeto você implementei análises a partir de um conjunto de dados sobre empregos. Minhas implementações foram incorporadas a um aplicativo Web desenvolvido com Flask (um framework web muito popular na comunidade Python). Também escrevi testes para a implementação de uma análise de dados.
 
