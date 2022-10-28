@@ -4,8 +4,10 @@
 
 Este projeto foi feito enquanto estudava na @betrybe.
 
+<div align="center">
 <img src="/.images/job.png" alt="Logo Aplicação" width="300"/>
-  
+</div>
+
   Neste projeto você implementei análises a partir de um conjunto de dados sobre empregos. Minhas implementações foram incorporadas a um aplicativo Web desenvolvido com Flask (um framework web muito popular na comunidade Python). Também escrevi testes para a implementação de uma análise de dados.
 
   Os dados foram extraídos do site [Glassdoor](https://www.glassdoor.com.br/) e obtidos através do [Kaggle](https://www.kaggle.com/atharvap329/glassdoor-data-science-job-data), uma plataforma disponiblizando conjuntos de dados para cientistas de dados.
